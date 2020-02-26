@@ -19,7 +19,7 @@ void readArray(int aa[], int size)
 	}
 	cout << "----" << endl;
 }
-//1. összegzés tétel/summation theorem
+//1. Ã¶sszegzÃ©s tÃ©tel/summation theorem
 int summationOfElements(int aa[], int size)
 {
 	int i = 0;
@@ -31,7 +31,7 @@ int summationOfElements(int aa[], int size)
 	}
 	return sum;
 }
-//2. csere tétel/replecament
+//2. csere tÃ©tel/replecament
 void replecamentTheorem(int& x, int& y)
 {
 	int temp = 0;
@@ -52,7 +52,7 @@ bool P_property(int x)
 	//}
 	return x % 3 == 0;
 }
-//3. eldöntés tétel 1 / decision theorem 1
+//3. eldÃ¶ntÃ©s tÃ©tel 1 / decision theorem 1
 void decisionMaking1(int aa[], int size)
 {
 	int i = 0;
@@ -71,7 +71,7 @@ void decisionMaking1(int aa[], int size)
 	cout << "----" << endl;
 }
 
-//3. eldöntés tétel 2 / / decision theorem 2
+//3. eldÃ¶ntÃ©s tÃ©tel 2 / / decision theorem 2
 void decisionMaking2(int aa[], int size)
 {
 	int i = 0;
@@ -89,7 +89,7 @@ void decisionMaking2(int aa[], int size)
 	}
 	cout << "----" << endl;
 }
-//4. feltételes összegzés tétel / conditional summation theorem 
+//4. feltÃ©teles Ã¶sszegzÃ©s tÃ©tel / conditional summation theorem 
 int conditionalSum(int aa[], int size)
 {
 	int sum = 0;
@@ -104,7 +104,7 @@ int conditionalSum(int aa[], int size)
 	}
 	return sum;
 }
-//5. feltételes megszámlálás tétel / conditional count theorem
+//5. feltÃ©teles megszÃ¡mlÃ¡lÃ¡s tÃ©tel / conditional count theorem
 int conditionalCount(int aa[], int size)
 {
 	int count = 0;
@@ -119,7 +119,7 @@ int conditionalCount(int aa[], int size)
 	}
 	return count;
 }
-//6. feltételes kiválasztás tétel / conditional select theorem
+//6. feltÃ©teles kivÃ¡lasztÃ¡s tÃ©tel / conditional select theorem
 int conditionalSelect(int aa[], int size)
 {
 	int index = 0;
@@ -135,7 +135,7 @@ int conditionalSelect(int aa[], int size)
 	}
 }
 
-//7. maximum kiválasztás tétel / select maximum element theorem
+//7. maximum kivÃ¡lasztÃ¡s tÃ©tel / select maximum element theorem
 int selectMax(int aa[], int size)
 {
 	int max_i = 0;
@@ -150,7 +150,7 @@ int selectMax(int aa[], int size)
 	}
 	return max_i;
 }
-//7. minimum kiválasztás tétel / select minimum element theorem
+//7. minimum kivÃ¡lasztÃ¡s tÃ©tel / select minimum element theorem
 int selectMin(int aa[], int size)
 {
 	int min_i = 0;
@@ -165,7 +165,7 @@ int selectMin(int aa[], int size)
 	}
 	return min_i;
 }
-//8. lineáris keresés tétel / linear search theorem
+//8. lineÃ¡ris keresÃ©s tÃ©tel / linear search theorem
 void linearSearch(int aa[], int size)
 {
 	int i = 0;
@@ -183,20 +183,10 @@ void linearSearch(int aa[], int size)
 	}
 	cout << "----" << endl;
 }
-
-
-
-
-
-
-
-
-
-
-//9. egyszerû cserés rendezés / sorting by replecament theorem
+//9. egyszerÃ» cserÃ©s rendezÃ©s / sorting by replecament theorem
 void replecamentSort(int aa[], int size)
 {
-	cout << "Egyszerû cserés rendezés!" << endl;
+	cout << "EgyszerÃ» cserÃ©s rendezÃ©s!" << endl;
 	cout << "Array before sorting: " << endl;
 	int i = 0;
 	while (i < size)
@@ -230,10 +220,10 @@ void replecamentSort(int aa[], int size)
 		i++;
 	}
 }
-//10. buborék rendezés / buble sort theorem
+//10. buborÃ©k rendezÃ©s / buble sort theorem
 void bubleSort(int aa[], int size)
 {
-	cout << "Buborék rendezés!" << endl;
+	cout << "BuborÃ©k rendezÃ©s!" << endl;
 	cout << "Array before sorting: " << endl;
 	int i = 0;
 	while (i < size)
@@ -267,35 +257,10 @@ void bubleSort(int aa[], int size)
 		i++;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//11. max, min kiválasztásos rendezés / sorting theorem by max, min selection
+//11. max, min kivÃ¡lasztÃ¡sos rendezÃ©s / sorting theorem by max, min selection
 void maxSelectSort(int aa[], int size)
 {
-	cout << "Max. kiválasztásos rendezés!" << endl;
+	cout << "Max. kivÃ¡lasztÃ¡sos rendezÃ©s!" << endl;
 	cout << "Array before sorting: " << endl;
 	int i = 0;
 	while (i < size)
@@ -332,7 +297,7 @@ void maxSelectSort(int aa[], int size)
 		i++;
 	}
 }
-//12. kiválogatás / assortment theorem
+//12. kivÃ¡logatÃ¡s / assortment theorem
 void assortment(int aa[], int size)
 {
 	cout << "assortment: " << endl;
@@ -371,11 +336,11 @@ int main()
 	setlocale(LC_ALL, "hun");
 	const int size = 10;
 	int aa[size] = { 0 };
-	//feltöltés:
+	//feltÃ¶ltÃ©s:
 	writeArray(aa, size);
 	readArray(aa, size);
 	int sum = summationOfElements(aa, size);
-	cout << "összeg: " << sum << endl;
+	cout << "Ã¶sszeg: " << sum << endl;
 	cout << "----" << endl;
 	int x = 10;
 	int y = 20;
@@ -386,15 +351,15 @@ int main()
 	decisionMaking1(aa, size);
 	decisionMaking2(aa, size);
 	int cSum = conditionalSum(aa, size);
-	cout << "feltételes összeg: " << cSum << endl;
+	cout << "feltÃ©teles Ã¶sszeg: " << cSum << endl;
 	int cCount = conditionalCount(aa, size);
-	cout << "feltételes megszámlálás: " << cCount << endl;
+	cout << "feltÃ©teles megszÃ¡mlÃ¡lÃ¡s: " << cCount << endl;
 	int cIndex = conditionalSelect(aa, size);
-	cout << "feltételesen kiválasztott elem indexe: " << cIndex + 1 << endl; //human számozás
+	cout << "feltÃ©telesen kivÃ¡lasztott elem indexe: " << cIndex + 1 << endl; //human szÃ¡mozÃ¡s
 	int indexOfMaxElement = selectMax(aa, size);
-	cout << "A legnagyobb elem indexe: " << indexOfMaxElement + 1 << endl;//human számozás
+	cout << "A legnagyobb elem indexe: " << indexOfMaxElement + 1 << endl;//human szÃ¡mozÃ¡s
 	int indexOfMinElement = selectMin(aa, size);
-	cout << "A legkisebb elem indexe: " << indexOfMinElement + 1 << endl;//human számozás
+	cout << "A legkisebb elem indexe: " << indexOfMinElement + 1 << endl;//human szÃ¡mozÃ¡s
 	linearSearch(aa, size);
 	replecamentSort(aa, size);
 	writeArray(aa, size);
