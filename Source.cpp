@@ -135,7 +135,7 @@ int conditionalSelect(int aa[], int size)
 	}
 }
 
-//7. maximum kiválasztás tétel / select maximum element theorem
+//7. maximum kiválasztás tétel / select maximum theorem
 int selectMax(int aa[], int size)
 {
 	int max_i = 0;
@@ -150,7 +150,7 @@ int selectMax(int aa[], int size)
 	}
 	return max_i;
 }
-//7. minimum kiválasztás tétel / select minimum element theorem
+//7. minimum kiválasztás tétel / select minimum theorem
 int selectMin(int aa[], int size)
 {
 	int min_i = 0;
@@ -183,7 +183,7 @@ void linearSearch(int aa[], int size)
 	}
 	cout << "----" << endl;
 }
-//9. egyszerû cserés rendezés / sorting by replecament theorem
+//9. egyszerű cserés rendezés / sorting by replecament theorem
 void replecamentSort(int aa[], int size)
 {
 	cout << "Egyszerû cserés rendezés!" << endl;
